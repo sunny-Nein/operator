@@ -1,0 +1,16 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	//int a = 5 / 2;//商2余1
+	//printf("a = %d\n", a);
+	//double a = 5 / 2.0;
+	//printf("a = %lf\n", a);
+	// 错误：
+	//double a = 5 % 2.0;
+	//printf("a = %lf", a);
+	return 0;
+}
+//除了%操作符之外，其他的几个操作符可以作用于整数和浮点数
+//对于/操作符如果两个操作数都是整数，执行整数除法。而只要有浮点数，执行的就是浮点数除法。
+//%操作符的两个操作必须为整数。返回的是整数整除之后的余数。
