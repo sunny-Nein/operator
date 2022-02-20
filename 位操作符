@@ -26,3 +26,34 @@ int main()
 	printf("%d", c);
 	return 0;
 }
+
+
+
+
+//不创建临时变量，交换a,b的值
+//1.加减法
+int main()
+{
+	int a = 3;
+	int b = 5;
+	//加减法
+	a = a + b;
+	b = a - b;
+	a = a - b;
+	printf("a = %d  b = %d ", a, b);
+	return 0;
+}
+//缺陷：
+//a,b为整形变量，当a,b的值特别大，但合法，它们相加是可能不合法 -- 溢出
+//2.异或的方法
+//没有创建变量的好
+int main()
+{
+	int a = 3;
+	int b = 5;
+	a = a ^ b;
+	b = a ^ b;
+	a = a ^ b;
+	printf("a=%d b=%d", a,b);
+	return 0;
+}
