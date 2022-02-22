@@ -10,3 +10,4 @@ int main()
 	printf("%d", b);
 	return 0;
 }
+//整数的原反补码相同。
