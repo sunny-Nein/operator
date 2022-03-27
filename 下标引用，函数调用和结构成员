@@ -1,0 +1,58 @@
+//下标引用，函数调用和结构成员
+//int main()
+//{
+//	int a[10] = { 0 };
+//	a[4] = 10;//下标为4
+//	return 0;
+//
+//}
+
+
+
+
+//int get_max(int a, int b)
+//{
+//	return a > b ? a : b;
+//}
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+// //调用函数的时候的（）就是调用函数操作符
+//	int max = get_max(a, b);
+//	printf("%d\n", max);
+//}
+
+
+//结构
+//struct Stu
+//{
+//	//成员变量
+//	char name[20];
+//	int age;
+//	char id[20];
+//};//创建一个类型。
+//int main()
+//{
+//	int a = 10;
+//	//使用 struct stu 类型创建了一个学生对象s1，并初始化
+//	struct Stu s1 = { "张三",20,"01" };
+//	struct Stu* ps = &s1;
+//	//printf("%s\n", ps->name);//结构体支持真操作符
+//	//printf("%d\n", ps->age);
+//	//printf("%s\n", ps->id);
+//	//结构体指针 -> 成员名
+//	// 
+//	//printf("%s\n", (*ps).name);//*解引用操作符 *ps == s1
+//	//printf("%d\n", (*ps).age);
+//	//printf("%s\n", (*ps).id);
+//
+//	//printf("%s\n", s1.name);
+//	//printf("%d\n", s1.age);
+//	//printf("%s\n", s1.id);
+//	////   .操作符用来访问结构体成员
+//	////结构提变量.成员名
+//
+//
+//	return 0;
+//}
