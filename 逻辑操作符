@@ -1,0 +1,19 @@
+// 逻辑操作符
+//int main()
+//{
+//	int a = 3;//0
+//	int b = 5;
+//	int c = a && b;
+//	//int c = a ||b;
+//	printf("%d\n", c);
+//	return 0;
+//}
+//int main()
+//{
+//	int i = 0, a = 1,b = 2, c = 3, d = 4;
+//	//i = a++ && ++b && d++;//a是先使用后++ 。&&一旦遇到0就不再执行后边的++b和d++。
+//	i = a++ || ++b || d++;//i结果确定后不再执行后边的代码
+//	printf("%d\n", i);
+//	printf("a=%d b=%d c=%d d=%d\n", a, b, c, d);
+//	return 0;
+//}
